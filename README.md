@@ -1,4 +1,7 @@
+
+
 # Git
+
 * 什么是Git
 * 什么是GitHub
 * Git的由来
@@ -72,4 +75,22 @@ git push
 4. Github通过 pull request提交代码到源仓库
 
    如果pull request没有通过,下次push依旧会保存在该pull request中
+
+   ​
+
+   ##### 工作区
+
+   ```
+   就是你在电脑里能看到的目录
+   ```
+
+   ##### 暂存区
+
+   ```
+   工作区有一个隐藏目录.git，这个不算工作区，而是Git的版本库。
+
+   Git的版本库里存了很多东西，其中最重要的就是称为stage（或者叫index）的暂存区，还有Git为我们自动创建的第一个分支master，以及指向master的一个指针叫HEAD。
+   ```
+
+   ​
 
